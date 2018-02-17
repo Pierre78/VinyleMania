@@ -23,7 +23,7 @@ import { AccountComponent } from './account/account.component';
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAFzbMfELaaTqu_qDPGv7n7-7IGIAIcOWE'
+      apiKey: 'bda4ada8694db06efcac9cf97b872b3e'
     })
   ],
   providers: [],
