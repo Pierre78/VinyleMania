@@ -4,6 +4,11 @@ Made By Matthias REIMUND And Pierre THUILLIER
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
+## API
+
+Using an Api for soundcloud :
+api-key: bda4ada8694db06efcac9cf97b872b3e
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
