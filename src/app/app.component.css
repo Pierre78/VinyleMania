@@ -2,10 +2,6 @@
     background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/vinyl.png");
 }
 
-agm-map {
-  height: 300px;
-}
-
 #img1 {
     background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/Carrousel.jpg");
     max-width:1440px;
@@ -15,6 +11,13 @@ agm-map {
 
 #img2 {
   background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/Carrousel1.jpg");
+  max-width:1440px;
+  height: 765px;  
+  background-repeat: no-repeat;
+}
+
+#img3 {
+  background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/Carrousel2.jpg");
   max-width:1440px;
   height: 765px;  
   background-repeat: no-repeat;
