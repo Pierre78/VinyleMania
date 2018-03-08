@@ -2,7 +2,10 @@
     background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/vinyl.png");
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba6d4b83b2b351720e01a215c6110a21d6f2abd9
 #img1 {
     background-image: url("C:/Users/Pierre/Desktop/TP_JS/Travaux_personnels/Projet_Techno_Web/vinyleMania/src/Carrousel.jpg");
     max-width:1440px;
@@ -22,4 +25,8 @@
   max-width:1440px;
   height: 765px;  
   background-repeat: no-repeat;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ba6d4b83b2b351720e01a215c6110a21d6f2abd9

@@ -38,7 +38,11 @@ const appRoutes: Routes =[
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
+<<<<<<< HEAD
       apiKey: '  bda4ada8694db06efcac9cf97b872b3e'
+=======
+      apiKey: 'bda4ada8694db06efcac9cf97b872b3e'
+>>>>>>> ba6d4b83b2b351720e01a215c6110a21d6f2abd9
     })
   ],
   providers: [],
