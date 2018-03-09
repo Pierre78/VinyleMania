@@ -8,8 +8,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
 import { PleasureComponent } from './pleasure/pleasure.component';
-import { AccountComponent } from './account/account.component';
+import { UserComponent } from './user/user.component';
 import { HomeComponent } from './home/home.component';
+import { SignInComponent } from './user/sign-in/sign-in.component';
+import { SignUpComponent } from './user/sign-up/sign-up.component';
 
 const appRoutes: Routes =[
   {
@@ -17,6 +19,15 @@ const appRoutes: Routes =[
   },
   {
     path: 'plaisir', component: PleasureComponent
+  },
+  {
+    path: 'user', component: UserComponent
+  },
+  {
+    path: 'inscription', component: SignInComponent
+  },
+  {
+    path: 'connexion', component: SignUpComponent
   },
   {
     path: '', component: HomeComponent
@@ -28,8 +39,10 @@ const appRoutes: Routes =[
     AppComponent,
     NewsComponent,
     PleasureComponent,
-    AccountComponent,
+    UserComponent,
     HomeComponent,
+    SignInComponent,
+    SignUpComponent,
 
   ],
   imports: [
@@ -38,11 +51,9 @@ const appRoutes: Routes =[
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-<<<<<<< HEAD
-      apiKey: '  bda4ada8694db06efcac9cf97b872b3e'
-=======
-      apiKey: 'bda4ada8694db06efcac9cf97b872b3e'
->>>>>>> ba6d4b83b2b351720e01a215c6110a21d6f2abd9
+
+      
+
     })
   ],
   providers: [],

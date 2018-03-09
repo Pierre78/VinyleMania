@@ -1,0 +1,42 @@
+  <h2 style="text-align:center;">Vous êtes nouveau ?</h2>
+  
+  <button id="button_sign_in" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Inscription</h1>
+        <p>Veuillez remplir ce formulaire pour créer votre compte.</p>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Entrez votre adresse mail" name="email" required>
+  
+        <label for="psw"><b>Mot de Passe</b></label>
+        <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+  
+        <label for="psw-repeat"><b>Confirmer le Mot de passe</b></label>
+        <input type="password" placeholder="Répétez votre mot passe" name="psw-repeat" required>
+        
+        
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+<router-outlet></router-outlet>
