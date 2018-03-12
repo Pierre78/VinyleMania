@@ -12,6 +12,10 @@ import { HomeComponent } from './home/home.component';
 import { SignInComponent } from './user/sign-in/sign-in.component';
 import { SignUpComponent } from './user/sign-up/sign-up.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { SongComponent } from './pleasure/song/song.component';
+import { ArtistComponent } from './pleasure/artist/artist.component';
+import { CategoryComponent } from './pleasure/category/category.component';
 
 const appRoutes: Routes =[
   {
@@ -19,6 +23,15 @@ const appRoutes: Routes =[
   },
   {
     path: 'plaisir', component: PleasureComponent
+  },
+  {
+    path: 'morceaux', component: SongComponent
+  },
+  {
+    path:'artiste', component: ArtistComponent
+  },
+  {
+    path: 'genre', component: CategoryComponent
   },
   {
     path: 'user', component: UserComponent
@@ -43,11 +56,15 @@ const appRoutes: Routes =[
     HomeComponent,
     SignInComponent,
     SignUpComponent,
+    SongComponent,
+    ArtistComponent,
+    CategoryComponent,
     
 
   ],
   imports: [
     CarouselModule.forRoot(),
+    BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
     BrowserModule,
     CommonModule,
