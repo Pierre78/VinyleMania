@@ -16,6 +16,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { SongComponent } from './pleasure/song/song.component';
 import { ArtistComponent } from './pleasure/artist/artist.component';
 import { CategoryComponent } from './pleasure/category/category.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes =[
   {
@@ -69,6 +70,7 @@ const appRoutes: Routes =[
     BrowserModule,
     CommonModule,
     FormsModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
 
       
